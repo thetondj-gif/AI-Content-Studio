@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "stages": ["research", "automatic_youtube_upload"],
+  "provider_neutral": false,
+  "direct_publish": true,
+  "production_credentials_present": true,
+  "network_execution": true,
+  "copy_upstream_implementation": true,
+  "output_root": "/tmp/unbounded-output",
+  "existing_service_mappings": {
+    "publishing_queue": "unknown-service"
+  },
+  "duplication_reviewed": false
+}
