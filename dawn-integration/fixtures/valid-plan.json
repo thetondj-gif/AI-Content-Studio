@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "stages": [
+    "research",
+    "script",
+    "scene_segmentation",
+    "captions",
+    "chapters",
+    "thumbnail_spec",
+    "ffmpeg_plan",
+    "publishing_metadata"
+  ],
+  "provider_neutral": true,
+  "direct_publish": false,
+  "production_credentials_present": false,
+  "network_execution": false,
+  "copy_upstream_implementation": false,
+  "output_root": "dawn-integration/evidence/demo-run",
+  "existing_service_mappings": {
+    "image_generation": "comfyui",
+    "video_assembly": "ffmpeg",
+    "publishing_queue": "postiz",
+    "artifact_storage": "drive"
+  },
+  "duplication_reviewed": true
+}
